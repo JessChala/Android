@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/angkor</item>
+        <item>@font/annapurna_sil</item>
+        <item>@font/arimo</item>
+        <item>@font/baskervville</item>
+        <item>@font/charis_sil</item>
+        <item>@font/holtwood_one_sc</item>
+        <item>@font/kavoon</item>
+        <item>@font/rammetto_one</item>
+    </array>
+</resources>

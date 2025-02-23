@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Micro distribucion</string>
+    <string name="myname">Jessica Chala</string>
+    <string name="register">Regístrate</string>
+    <string name="introduction">Inicia una nueva aventura con Micro distribución y descubre una nueva forma de ver el mundo</string>
+    <string name="login">La aventura está por iniciar, por favor inicia sesión</string>
+    <string name="startb">Comienza</string>
+    <string name="into">Ingresar</string>
+    <string name="recover_pass">Recupera Tu Contraseña</string>
+    <string name="not_account">No tienes cuenta?</string>
+    <string name="google">Ingresa con Google</string>
+</resources>
