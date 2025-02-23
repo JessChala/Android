@@ -112,7 +112,7 @@
         app:strokeWidth="2dp" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/tvrecoverpass"
         android:layout_width="222dp"
         android:layout_height="24dp"
         android:layout_marginTop="12dp"
@@ -136,6 +136,9 @@
         android:fontFamily="@font/baskervville"
         android:text="@string/google"
         android:textAlignment="textEnd"
+        app:icon="@drawable/google"
+        app:iconSize="30dp"
+        app:iconTint="@null"
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -143,7 +146,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/tvrecoverpass"
         app:strokeColor="@color/red"
         app:strokeWidth="2dp" />
 
@@ -177,17 +180,7 @@
         app:layout_constraintStart_toEndOf="@+id/tvnot_account"
         app:layout_constraintTop_toBottomOf="@+id/btintogooglelogin" />
 
-    <ImageView
-        android:id="@+id/ivgooglelogin"
-        android:layout_width="42dp"
-        android:layout_height="35dp"
-        app:layout_constraintBottom_toBottomOf="@+id/btintogooglelogin"
-        app:layout_constraintEnd_toEndOf="@+id/btintogooglelogin"
-        app:layout_constraintHorizontal_bias="0.043"
-        app:layout_constraintStart_toStartOf="@+id/btintogooglelogin"
-        app:layout_constraintTop_toTopOf="@+id/btintogooglelogin"
-        app:layout_constraintVertical_bias="0.476"
-        app:srcCompat="@drawable/google" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
