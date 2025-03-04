@@ -9,4 +9,8 @@
     <string name="recover_pass">Recupera Tu Contraseña</string>
     <string name="not_account">No tienes cuenta?</string>
     <string name="google">Ingresa con Google</string>
+    <string name="mns_intro_register">Por favor ingrese los siguientes datos</string>
+    <string name="send">Enviar</string>
+    <string name="RecuperarPass">Ingresa tu correo electrónico y te enviaremos un enlace para restablecer tu contraseña.</string>
+
 </resources>

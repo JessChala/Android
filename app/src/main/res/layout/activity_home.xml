@@ -9,6 +9,7 @@
     <ImageView
         android:id="@+id/imlogoHome"
         android:layout_width="173dp"
+
         android:layout_height="152dp"
         android:layout_marginTop="72dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,7 +52,7 @@
         android:id="@+id/btstarthome"
         android:layout_width="230dp"
         android:layout_height="53dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="24dp"
         android:backgroundTint="@color/red"
         android:fontFamily="@font/charis_sil"
         android:insetTop="0dp"
@@ -75,7 +76,7 @@
         android:id="@+id/tvregisterhome"
         android:layout_width="146dp"
         android:layout_height="43dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/charis_sil"
         android:textAlignment="center"
         android:textColor="@color/red"

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+    <EditText
+        android:id="@+id/etEmailRecuperar"
+        style="@style/EditTextReunded"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:fontFamily="@font/arimo"
+        android:inputType="text"
+        android:text="Correo"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.402" />
+
+    <Button
+        android:id="@+id/btRegisterRecuperar"
+        android:layout_width="230dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/red"
+        android:fontFamily="@font/charis_sil"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:lineSpacingExtra="8sp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:text="@string/send"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmailRecuperar"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="2dp" />
+
+    <TextView
+        android:id="@+id/tvmnsPassRecuperar"
+        android:layout_width="332dp"
+        android:layout_height="62dp"
+        android:fontFamily="@font/annapurna_sil"
+        android:text="@string/RecuperarPass"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/etEmailRecuperar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.802" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

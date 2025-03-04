@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroActivity"
+    android:background="@color/grey"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/ivlogoregister"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:src="@drawable/logo">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tvnameappregistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/angkor"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvmnsIntroregister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arimo"
+            android:text="@string/mns_intro_register"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etNameRegister"
+            style="@style/EditTextReunded"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:fontFamily="@font/arimo"
+            android:inputType="text"
+            android:text="Nombre"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/etLastNameRegister"
+            style="@style/EditTextReunded"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/arimo"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Apellidos"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/etEmailRegister"
+            style="@style/EditTextReunded"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/arimo"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Correo Electrónico"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/etPhoneRegister"
+            style="@style/EditTextReunded"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:fontFamily="@font/arimo"
+            android:inputType="text"
+            android:phoneNumber="true"
+            android:text="Teléfono"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/etPassRegister"
+            style="@style/EditTextReunded"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/arimo"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:password="true"
+            android:text="Contraseña"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/etRepeatPassRegister"
+            style="@style/EditTextReunded"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/arimo"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:password="true"
+            android:text="Contraseña"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/rbAcceptCondRegister"
+            android:layout_width="304dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/arimo"
+            android:text="Acepta Terminos y Condiciones"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btRegisterRegister"
+            android:layout_width="230dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/red"
+            android:fontFamily="@font/charis_sil"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:lineSpacingExtra="8sp"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp"
+            android:text="@string/send"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            app:strokeColor="#FFFFFF"
+            app:strokeWidth="2dp" />
+
+    </LinearLayout>
+</ScrollView>
