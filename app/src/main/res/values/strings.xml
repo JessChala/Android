@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Micro distribucion</string>
+    <string name="app_name">Radio Escucha</string>
     <string name="myname">Jessica Chala</string>
     <string name="register">Regístrate</string>
-    <string name="introduction">Inicia una nueva aventura con Micro distribución y descubre una nueva forma de ver el mundo</string>
+    <string name="introduction">Inicia una nueva aventura con Radio Escucha y descubre una nueva forma de ver el mundo</string>
     <string name="login">La aventura está por iniciar, por favor inicia sesión</string>
     <string name="startb">Comienza</string>
     <string name="into">Ingresar</string>
@@ -12,5 +12,11 @@
     <string name="mns_intro_register">Por favor ingrese los siguientes datos</string>
     <string name="send">Enviar</string>
     <string name="RecuperarPass">Ingresa tu correo electrónico y te enviaremos un enlace para restablecer tu contraseña.</string>
+    <string name="Calculate">Calcular</string>
+    <string name="viewhistory">Ver historial</string>
+    <string name="tituloCalculadora">Calculadora de Huella de Carbono</string>
+    <string name="kmVehiculo">Kilómetros en vehículo (km)</string>
+    <string name="consumoelectrico">Consumo eléctrico (kWh)"</string>
+    <string name="consumogas">Consumo de gas (m³)</string>
 
 </resources>

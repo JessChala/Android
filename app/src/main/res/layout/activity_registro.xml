@@ -37,6 +37,7 @@
             android:fontFamily="@font/arimo"
             android:text="@string/mns_intro_register"
             android:textAlignment="center"
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
         <EditText
@@ -121,6 +122,7 @@
             android:layout_marginTop="10dp"
             android:fontFamily="@font/arimo"
             android:text="Acepta Terminos y Condiciones"
+            android:textColor="@color/black"
             android:textSize="16sp" />
 
         <Button

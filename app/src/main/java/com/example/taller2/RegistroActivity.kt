@@ -70,7 +70,7 @@ class RegistroActivity:AppCompatActivity() {
                 Toast.makeText(this, "El telefono es obligatorio", Toast.LENGTH_SHORT).show()
                 return false
             }
-            if (telefono.isEmpty() || contrasena.length < 10) {
+            if (contrasena.isEmpty() || contrasena.length < 10) {
                 Toast.makeText(this, "Minimo 10 caracteres", Toast.LENGTH_SHORT).show()
                 return false
             }
@@ -82,6 +82,10 @@ class RegistroActivity:AppCompatActivity() {
     }
 
         private fun guardarDatosUsuario (){
+            if (correoExistente(editTextCorreo.text.toString().trim())) {
+                Toast.makeText(this, "El correo ya está registrado", Toast.LENGTH_SHORT).show()
+                return
+            }
             val editor = sharedPreferences.edit()
             editor.putString("nombre",editTextNombres.text.toString().trim())
             editor.putString("apellidos", editTextApellidos.text.toString().trim())

@@ -8,7 +8,7 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 
 class SplashActivity:AppCompatActivity() {
-    private val splash_time_out: Long = 3000
+    private val splash_time_out: Long = 1500
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

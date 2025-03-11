@@ -9,86 +9,103 @@
 
     <!-- Nombre -->
 
+    <!-- Apellido -->
+
+    <!-- Correo -->
+
+    <!-- Teléfono -->
+
+    <!-- Botón Editar -->
+
     <ImageView
         android:id="@+id/ivlogoperfil"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="236dp"
+        android:layout_width="107dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="52dp"
         android:scaleType="centerCrop"
         android:src="@drawable/logo"
-        app:layout_constraintBottom_toTopOf="@+id/tvName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <!-- Apellido -->
 
     <TextView
         android:id="@+id/tvNameappperfil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/arimo"
         android:paddingTop="10dp"
-        android:text="Nombre: Jessica"
-        android:textSize="18sp"
+        android:text="Nombre:"
+        android:textColor="@color/black"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ivProfileImage" />
+        app:layout_constraintTop_toBottomOf="@+id/ivlogoperfil" />
 
     <TextView
-            android:id="@+id/tvLastNameperfil"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Apellido: Chala"
-            android:textSize="18sp"
-            app:layout_constraintTop_toBottomOf="@+id/tvName"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:paddingTop="5dp"/>
+        android:id="@+id/tvLastNameperfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:paddingTop="5dp"
+        android:fontFamily="@font/arimo"
+        android:text="Apellido:"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNameappperfil" />
 
-        <!-- Correo -->
-        <TextView
-            android:id="@+id/tvEmailperfil"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Correo: jessica@email.com"
-            android:textSize="18sp"
-            app:layout_constraintTop_toBottomOf="@+id/tvLastName"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:paddingTop="5dp"/>
-
-        <!-- Teléfono -->
-
-    <!-- Botón Editar -->
+    <TextView
+        android:id="@+id/tvEmailperfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:paddingTop="5dp"
+        android:fontFamily="@font/arimo"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Correo:"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLastNameperfil" />
 
     <TextView
         android:id="@+id/tvPhoneperfil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
         android:paddingTop="5dp"
-        android:text="Teléfono: 3001234567"
-        android:textSize="18sp"
+        android:fontFamily="@font/arimo"
+        android:textStyle="bold"
+        android:text="Teléfono:"
+        android:textColor="@color/black"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintHorizontal_bias="0.467"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/tvEmailperfil" />
 
     <Button
         android:id="@+id/btnEditProfile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="52dp"
         android:backgroundTint="@color/red"
+        android:fontFamily="@font/arimo"
         android:text="Editar Perfil"
         android:textColor="@android:color/white"
-        android:textSize="16sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.851"
+        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvPhone" />
+        app:layout_constraintTop_toBottomOf="@+id/tvPhoneperfil" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
